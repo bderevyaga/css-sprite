@@ -1,20 +1,20 @@
-var gulp = require('gulp');
-var imagemin = require('gulp-imagemin');
-var spritesmith = require('gulp.spritesmith');
+'use strict';
 
-gulp.task('sprite', function () {
+const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+const spritesmith = require('gulp.spritesmith');
 
-  var spriteData = gulp.src('./icon/*.png').pipe(spritesmith({
+gulp.task('sprite', () => {
+  gulp.src('./icon/*.png').pipe(spritesmith({
     imgName: 'sprite.png',
     cssName: 'sprite.css',
     cssFormat: 'css'
-  }));
-
-  spriteData.pipe(gulp.dest('./'));
+  }))
+    .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('img', () =>
-    gulp.src('./*.png')
-        .pipe(imagemin())
-        .pipe(gulp.dest('dist/images'))
-);
+gulp.task('img', () => {
+  gulp.src('./dist/*.png')
+    .pipe(imagemin())
+    .pipe(gulp.dest('./dist'))
+});

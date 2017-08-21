@@ -1,0 +1,216 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-controls_0000s_0000_home {
+  background-image: url(sprite.png);
+  background-position: -22px -101px;
+  width: 22px;
+  height: 18px;
+}
+.icon-controls_0000s_0001_insights {
+  background-image: url(sprite.png);
+  background-position: -125px -19px;
+  width: 20px;
+  height: 19px;
+}
+.icon-controls_0000s_0002_collaboration {
+  background-image: url(sprite.png);
+  background-position: -88px -101px;
+  width: 20px;
+  height: 18px;
+}
+.icon-controls_0000s_0003_scores {
+  background-image: url(sprite.png);
+  background-position: -105px -20px;
+  width: 20px;
+  height: 20px;
+}
+.icon-controls_0000s_0004_dashboards {
+  background-image: url(sprite.png);
+  background-position: 0px -119px;
+  width: 19px;
+  height: 19px;
+}
+.icon-controls_0000s_0005_actions {
+  background-image: url(sprite.png);
+  background-position: -145px 0px;
+  width: 16px;
+  height: 21px;
+}
+.icon-controls_0001s_0000_home {
+  background-image: url(sprite.png);
+  background-position: 0px -101px;
+  width: 22px;
+  height: 18px;
+}
+.icon-controls_0001s_0001_insights {
+  background-image: url(sprite.png);
+  background-position: -125px 0px;
+  width: 20px;
+  height: 19px;
+}
+.icon-controls_0001s_0002_collaboration {
+  background-image: url(sprite.png);
+  background-position: -39px -119px;
+  width: 20px;
+  height: 18px;
+}
+.icon-controls_0001s_0003_scores {
+  background-image: url(sprite.png);
+  background-position: -105px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-controls_0001s_0004_dashboards {
+  background-image: url(sprite.png);
+  background-position: -125px -95px;
+  width: 19px;
+  height: 19px;
+}
+.icon-controls_0001s_0005_actions {
+  background-image: url(sprite.png);
+  background-position: -145px -42px;
+  width: 16px;
+  height: 21px;
+}
+.icon-controls_0002s_0000_home {
+  background-image: url(sprite.png);
+  background-position: -44px -101px;
+  width: 22px;
+  height: 18px;
+}
+.icon-controls_0002s_0001_insights {
+  background-image: url(sprite.png);
+  background-position: -105px -80px;
+  width: 20px;
+  height: 19px;
+}
+.icon-controls_0002s_0002_collaboration {
+  background-image: url(sprite.png);
+  background-position: -19px -119px;
+  width: 20px;
+  height: 18px;
+}
+.icon-controls_0002s_0003_scores {
+  background-image: url(sprite.png);
+  background-position: -105px -60px;
+  width: 20px;
+  height: 20px;
+}
+.icon-controls_0002s_0004_dashboards {
+  background-image: url(sprite.png);
+  background-position: -125px -76px;
+  width: 19px;
+  height: 19px;
+}
+.icon-controls_0002s_0005_actions {
+  background-image: url(sprite.png);
+  background-position: -145px -21px;
+  width: 16px;
+  height: 21px;
+}
+.icon-controls_0003s_0000_home {
+  background-image: url(sprite.png);
+  background-position: -66px -101px;
+  width: 22px;
+  height: 18px;
+}
+.icon-controls_0003s_0001_insights {
+  background-image: url(sprite.png);
+  background-position: -125px -38px;
+  width: 20px;
+  height: 19px;
+}
+.icon-controls_0003s_0002_collaboration {
+  background-image: url(sprite.png);
+  background-position: -59px -119px;
+  width: 20px;
+  height: 18px;
+}
+.icon-controls_0003s_0003_scores {
+  background-image: url(sprite.png);
+  background-position: -105px -40px;
+  width: 20px;
+  height: 20px;
+}
+.icon-controls_0003s_0004_dashboards {
+  background-image: url(sprite.png);
+  background-position: -125px -57px;
+  width: 19px;
+  height: 19px;
+}
+.icon-controls_0003s_0005_actions {
+  background-image: url(sprite.png);
+  background-position: -145px -63px;
+  width: 15px;
+  height: 21px;
+}
+.icon-controls_0004s_0000s_0000_insights {
+  background-image: url(sprite.png);
+  background-position: -66px -68px;
+  width: 32px;
+  height: 30px;
+}
+.icon-controls_0004s_0000s_0001_scores {
+  background-image: url(sprite.png);
+  background-position: 0px -68px;
+  width: 33px;
+  height: 33px;
+}
+.icon-controls_0004s_0000s_0002_dashboards {
+  background-image: url(sprite.png);
+  background-position: -72px 0px;
+  width: 33px;
+  height: 33px;
+}
+.icon-controls_0004s_0001s_0000_insights {
+  background-image: url(sprite.png);
+  background-position: 0px -36px;
+  width: 35px;
+  height: 32px;
+}
+.icon-controls_0004s_0001s_0001_scores {
+  background-image: url(sprite.png);
+  background-position: -36px 0px;
+  width: 36px;
+  height: 36px;
+}
+.icon-controls_0004s_0001s_0002_dashboards {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 36px;
+  height: 36px;
+}
+.icon-controls_0004s_0002s_0000_insights {
+  background-image: url(sprite.png);
+  background-position: -35px -36px;
+  width: 32px;
+  height: 30px;
+}
+.icon-controls_0004s_0002s_0001_scores {
+  background-image: url(sprite.png);
+  background-position: -33px -68px;
+  width: 33px;
+  height: 33px;
+}
+.icon-controls_0004s_0002s_0002_dashboards {
+  background-image: url(sprite.png);
+  background-position: -72px -33px;
+  width: 33px;
+  height: 33px;
+}
