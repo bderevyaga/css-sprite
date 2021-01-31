@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "css-sprite",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS Sprite",
   "scripts": {
-    "start": "gulp sprite && gulp img"
+    "start": "gulp sprite-all"
   },
   "author": "",
   "license": "ISC",
